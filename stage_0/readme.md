@@ -1,4 +1,4 @@
-# Project API — <PROJECT_NAME>
+# Project API — Profile Endpoint
 
 One-line: Lightweight Python REST API for <purpose> (replace with project description).
 
