@@ -1,4 +1,7 @@
-# web: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+#!/bin/bash
+# start.sh
+# Exit immediately if a command exits with a non-zero status
+set -o errexit  
 
-#!/usr/bin/env bash
-exec uvicorn app.main:app --host 0.0.0.0 --port $PORT
+# Run the app using uvicorn
+uvicorn app.main:app --host 0.0.0.0 --port $PORT
